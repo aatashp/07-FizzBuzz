@@ -25,27 +25,25 @@ h2 {
     text-align: center;
     margin: 0.3em;
     padding: 0.3em 0;
-    border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
     font-weight: bold;
 }
 
 p {
     text-align: center;
-    margin: 15px;
+    margin: 15px 0;
+}
+
+#lists {
+    display: none;
 }
 
 #q1, #q2, #q3, #q4 {
-    display: inline;
+    display: none;
     float: left;
-    width: 100px;
+    width: 24%;
     margin-bottom: 30px;
-    border-left: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-}
-
-#q4 {
-    border-right: 1px solid #ccc;
+    outline: 1px solid #ccc;
 }
 
 #instructions {
@@ -54,4 +52,43 @@ p {
     padding-left: 10px;
     font-size: 0.8em;
     font-style: italic;
+}
+
+#form {
+    margin-bottom: 50px;
+}
+
+#form div {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#num-input {
+    height: 35px;
+    width: 230px;
+    border: 1px solid #505050;    
+}
+
+#num-input:focus {
+    border: 1px solid #1D6DE7;    
+}
+
+#run-fizzbuzz {
+    height: 35px;
+    width: 100px;
+    color: #fff;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4387fd), to(#4683ea));
+    background-image: -webkit-linear-gradient(#4387fd, #4683ea);
+    background-image: -moz-linear-gradient(#4387fd, #4683ea);
+    background-image: -o-linear-gradient(#4387fd, #4683ea);
+    background-image: linear-gradient(#4387fd, #4683ea);
+}
+
+#msg {
+    color: red;
+    font-size: 0.8em;
+    margin-left: 15px;
+    
 }
